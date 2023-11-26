@@ -7,6 +7,6 @@
 Вывести значение переменной admin в консоль.
 */
 
-var name = "Brad Pitt";
+var name = "Герман";
 var admin = name;
 console.log(admin);

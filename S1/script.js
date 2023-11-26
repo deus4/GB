@@ -65,14 +65,14 @@ console.log(myAge + currentYear + sum + diff + mul + div);
 // `let e = (2 * 8) / 4;`
 // Не запуская код, определите, что отобразится в консоли:
 // `let f = 2 * (8 / 4);`
-// Тайминг: 20 минут.
- 
+
 // Задание 5: 
-// 1. Запишите в переменную `a` число `0.1`, а в переменную `b` - число `0.2`. Найдите сумму значений этих переменных и выведите ее на экран.
-//const a = 0.1;
-// const b = 0.2;
-// console.log(a + b);
- 
+// 1. Запишите в переменную `a` число `0.1`, а в переменную `b` - число `0.2`. 
+// Найдите сумму значений этих переменных и выведите ее на экран.
+i a = 0.1;
+const b = 0.2;
+console.log(a + b);
+
 // const c = 13453.35637;
 // console.log(Math.round(c));
 // console.log(Math.floor(c));
@@ -82,13 +82,13 @@ console.log(myAge + currentYear + sum + diff + mul + div);
 // console.log(c * 100);
 // console.log(Math.round(c * 100) / 100);
 // console.log(c.toFixed(2));
- 
+
 // 2. Создайте переменную `c`, запишите в нее какое-нибудь положительное или отрицательное число. Выведите на экран это число с обратным знаком.
 //const a = 100;
 //console.log(-a);
- 
+
 // Тайминг: 5 минут.
- 
+
 // Задание 6: 
 // 1. Создайте строку с вашем именем и строку с вашей фамилией. Выведите эти данные в консоль.
 // const myName = "Артур";
@@ -102,16 +102,16 @@ console.log(myAge + currentYear + sum + diff + mul + div);
 // const a = "hello";
 // const b = "world";
 // console.log(`${a} ${b}`);
- 
+
 // Тайминг: 15 минут.
- 
+
 let num = 5;
 console.log(num);
 num = 10;
 console.log(num);
 num = 10 ** 2;
 console.log(num);
- 
+
 //Строки - string
 //Числа - number
 //Логические - boolean
