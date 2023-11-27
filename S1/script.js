@@ -1,3 +1,5 @@
+'use strict';
+
 // Задание 1:
 // console.log('Текст из script.js!');
 
@@ -7,8 +9,8 @@
 // 1. Создайте переменную `num` и присвойте ей значение `123`. 
 // Выведите значение этой переменной в консоль.
 
-const num = 123;
-console.log(num);
+const number = 123;
+console.log(number);
 
 // 2. Создайте переменную `а` и присвойте ей значение `5`, 
 // переопределите переменную `а` на значение `7`, выведите переменную `а` в консоль.
@@ -69,57 +71,60 @@ console.log(myAge + currentYear + sum + diff + mul + div);
 // Задание 5: 
 // 1. Запишите в переменную `a` число `0.1`, а в переменную `b` - число `0.2`. 
 // Найдите сумму значений этих переменных и выведите ее на экран.
-i a = 0.1;
-const b = 0.2;
+const y = 0.1;
+const z = 0.2;
 console.log(a + b);
 
-// const c = 13453.35637;
-// console.log(Math.round(c));
-// console.log(Math.floor(c));
-// console.log(Math.ceil(c));
-// console.log(Math.trunc(c));
-// console.log(c);
-// console.log(c * 100);
-// console.log(Math.round(c * 100) / 100);
-// console.log(c.toFixed(2));
+const x = 13453.35637;
+console.log(Math.round(c));
+console.log(Math.floor(c));
+console.log(Math.ceil(c));
+console.log(Math.trunc(c));
 
-// 2. Создайте переменную `c`, запишите в нее какое-нибудь положительное или отрицательное число. Выведите на экран это число с обратным знаком.
-//const a = 100;
-//console.log(-a);
+console.log(c);
+console.log(c * 100);
+console.log(Math.round(c * 100) / 100);
+console.log(c.toFixed(2));
 
-// Тайминг: 5 минут.
+// 2. Создайте переменную `c`, запишите в нее какое-нибудь положительное или отрицательное число. 
+// Выведите на экран это число с обратным знаком.
+const c = 100;
+console.log(-c);
+
 
 // Задание 6: 
 // 1. Создайте строку с вашем именем и строку с вашей фамилией. Выведите эти данные в консоль.
-// const myName = "Артур";
-// const myFamile = "Федоров";
-// console.log(myName + " " + myFamile);
-// 2. Создайте переменную с текстом 'java' и переменную с текстом 'script'. С помощью этих переменных и операции конкатенации строк выведите в консоль строку 'javascript'.
-// const java = "java";
-// const script = "script";
-// console.log(java + script);
-// 3. Создайте переменную с текстом 'hello' и переменную с текстом 'world'. С помощью этих переменных и операции конкатенации строк выведите в консоль строку 'hello world', желательно использовать бэктики (обратные кавычки).
-// const a = "hello";
-// const b = "world";
-// console.log(`${a} ${b}`);
+const firstName = "Артур";
+const familyName = "Федоров";
+console.log(firstName + " " + familyName);
+// 2. Создайте переменную с текстом 'java' и переменную с текстом 'script'. 
+// С помощью этих переменных и операции конкатенации строк выведите в консоль строку 'javascript'.
+const java = "java";
+const script = "script";
+console.log(java + script);
+// 3. Создайте переменную с текстом 'hello' и переменную с текстом 'world'. 
+// С помощью этих переменных и операции конкатенации строк выведите в консоль строку 'hello world', 
+// желательно использовать бэктики (обратные кавычки).
+const h = "hello";
+const w = "world";
+console.log(`${a} ${b}`);
 
-// Тайминг: 15 минут.
 
-let num = 5;
-console.log(num);
-num = 10;
-console.log(num);
-num = 10 ** 2;
-console.log(num);
+// let num = 5;
+// console.log(num);
+// num = 10;
+// console.log(num);
+// num = 10 ** 2;
+// console.log(num);
 
-//Строки - string
-//Числа - number
-//Логические - boolean
-//Не определённое значение - undefined
-let num2;
-// Пустое значение - null 
-let num2 = null;
-//Уникальные значения - symbol 
-//Большое целое число - BigInt
-let num3 = 356893576287029845702986720986721497298673856703596730598763095867n;
-//Объект - object
+// string - Строки;
+// number - Числа;
+// boolean - Логические;
+// undefined - Неопределённое значение;
+// let num2;
+// null - Пустое значение ;
+// let num2 = null;
+// symbol - Уникальные значения;
+// BigInt - Большое целое число;
+// let num3 = 356893576287029845702986720986721497298673856703596730598763095867n;
+// object - Объект
