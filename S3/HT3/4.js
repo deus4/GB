@@ -21,18 +21,9 @@ function sum(a, b) {
 }
 
 function subtract(a, b) {
-    // это решение я подсмотрел
-    return a > b ? a - b : 0;
-
-    /*
-    можно было и так:
-    if (a > b) {
-        return a - b;
-    } else {
-        return 0;
-    }
-    */
+    return a > b ? a - b : b - a;
 }
+
 
 function multiply(a, b) {
     return a * b;

@@ -6,8 +6,8 @@
 */
 
 function cubeSum(number) {
-    const result = Math.pow(2, 3) + Math.pow(3, 3);
-    // либо другой вариант - const result = 2 ** 3 + 3 ** 3;
+    const result = 2 ** 3 + 3 ** 3;
+    // либо другой вариант - const result = Math.pow(2, 3) + Math.pow(3, 3);
     console.log(result);
 }
 

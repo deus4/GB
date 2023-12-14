@@ -18,6 +18,7 @@ function findMaxNumber() {
 findMaxNumber();
 
 
+
 // Вариант с проверкой на число и соответствующим сообщением:
 /* 
 function findMaxNumber() {
